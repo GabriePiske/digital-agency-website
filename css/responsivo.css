@@ -1,0 +1,158 @@
+@media screen and (max-width: 480px) {
+    /* telas com largura max de 480px */
+
+    .cabecalho img {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__texto {
+        align-items: center;
+    }
+
+    .hero__titulo {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 23.625rem;
+        margin: auto;
+    }
+
+    .hero__paragrafo {
+        width: 23.625rem;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero__botao {
+        margin-bottom: 2rem;
+    }
+
+    .companies__container {
+        width: 22.75rem;
+    }
+
+    .companies__container img {
+        width: 4.375rem;
+    }
+
+    .branding {
+        flex-direction: column-reverse;
+        /* inverte  */
+    }
+
+    .branding__img img {
+        width: 23.4275rem;
+        margin: auto;
+        height: 24rem;
+    }
+
+    .branding__texto {
+        align-items: center;
+    }
+
+    .branding__titulo {
+        width: 23.75rem;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .branding__paragrafo {
+        width: 23.75rem;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .custom {
+        flex-direction: column;
+    }
+
+    .custom__texto {
+        align-items: center;
+    }
+
+    .custom__titulo {
+        width: 23.75rem;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .custom__paragrafo {
+        width: 23.75rem;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .custom__img img {
+        width: 23.4275rem;
+        margin: auto;
+        height: 24rem;
+    }
+
+    .testimonial__titulo {
+        width: 20.75rem;
+        font-size: 2rem;
+        margin: auto;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        width: 21.6875rem;
+        margin: auto;
+    }
+
+    .contact__img {
+        display: none;
+    }
+
+    .contact__texto {
+        align-items: center;
+    }
+
+    .contact__titulo {
+        width: 19.3125rem;
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact__paragrafo {
+        width: 23.625rem;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .footer {
+        height: 71.25rem;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape {
+        margin-top: 5rem;
+
+    }
+
+    .rodape__infos {
+        margin: 0;
+    }
+
+    .rodape__lista a {
+        text-decoration: none;
+    }
+
+}
